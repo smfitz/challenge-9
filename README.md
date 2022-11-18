@@ -1,7 +1,8 @@
-# My first project
+
+  # My project
 
   ## Description
-    ### Its super cool
+  ### Its cool
  
   ## Table of Contents
   ### - [Installation](#install)
@@ -12,26 +13,20 @@
   ### - [Contact Me](#emailad)
 
   ## Installation
-
-    ### For it 
+  ### Fork it
   
   ## Usage
+  ### For making a readme
   
-    ### cool and easy makes things fun
-  
-  ## Credits
-
-    ### N/A
+  ## Credit
+  ### N/A
   
   ## License
-
-    ### MIT
+  ### MIT
 
   ## GitHub Username
-
-    ### [My Github](https://github.com/undefined)
+  ### [My Github](undefined)
 
   ## Email Address
-
-    ### <a onclick="return linkRedirecter(this)" target="_blank" class="ex_link" href="https://mail.google.com/a/umn.edu/#inbox/13f62a30179692eb">s3anf1tzpatrick@gmail.com</a>
+  ### <a onclick="return linkRedirecter(this)" target="_blank" class="ex_link" href="https://mail.google.com/a/umn.edu/#inbox/13f62a30179692eb">s3anf1tzpatrick@gmail.com</a>
   

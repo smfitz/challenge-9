@@ -22,14 +22,14 @@ const generateREADME = ({title, desc, install, usage, credits, license, username
   ## Usage
   ### ${usage}
   
-  ## Credits
+  ## Credit
   ### ${credits}
   
   ## License
   ### ${license}
 
   ## GitHub Username
-  ### ${username}
+  ### [My Github](${username})
 
   ## Email Address
   ### <a onclick="return linkRedirecter(this)" target="_blank" class="ex_link" href="https://mail.google.com/a/umn.edu/#inbox/13f62a30179692eb">${emailad}</a>
@@ -63,14 +63,27 @@ inquirer
       message: 'Please list all other contributers of this application.',
     },
     {
-      type: 'input',
-      name: 'license',
-      message: 'What GitHub License would you like to use for this project?',
+      message: 'Please select a license from the following List.',
+      name: "license",
+      choices: 
+            [
+            new inquirer.Separator(),
+            "-- Skip --",
+            new inquirer.Separator(),
+            "apache2", "bsd2", "bsd3",
+            new inquirer.Separator(),
+            "cc1", "cc4-international", "cc4-sharealike",
+            new inquirer.Separator(),
+            "EPL1", "GNU GPLv2", "GNU GPLv3",
+            new inquirer.Separator(),
+            "MIT", "Unlicense"
+            ],
+      type: 'list'
     },
     {
       type: 'input',
       name: 'github',
-      message: 'Enter your GitHub Username',
+      message: 'Please provide a link to you your GitHub profile.',
     },
     {
       type: 'input',
